@@ -90,7 +90,7 @@ const part2 = input =>
         result *= it['#'];
     }
 
-    return result;
+    return `Day 3 - Part 2: ${result}`;
 };
 
 export { part1, part2 };

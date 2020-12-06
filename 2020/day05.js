@@ -47,7 +47,7 @@ const part1 = input =>
         plan.push([_row, _seat, ID]);
     }
 
-    return [seatIDs, 'The highest ID of all is; ' + seatIDs.sort((a, b) =>
+    return [seatIDs, 'Day 5 - Part 1: The highest ID of all is; ' + seatIDs.sort((a, b) =>
     {
         if (a < b) return 1;
         if (a > b) return -1;
@@ -102,7 +102,7 @@ const part2 = input =>
         }
     }
 
-    return result;
+    return `Day 5 - Part 2: My Seat ID is: ${result}`;
 };
 
 export { part1, part2 };

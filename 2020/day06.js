@@ -15,7 +15,7 @@ const part1 = input => {
     countYes += group.length;
   }
 
-  return countYes;
+  return `Day 6 - Part 1: ${countYes}`;
 }
 
 // Part 2
@@ -35,7 +35,7 @@ const part2 = input => {
     countYes += _.intersection(...answers).length
   }
 
-  return countYes;
+  return `Day 6 - Part 2: ${countYes}`;
 }
 
 export { part1, part2 }

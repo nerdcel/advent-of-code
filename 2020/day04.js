@@ -56,7 +56,7 @@ const part1 = input =>
         invalid++;
     }
 
-    return `There are ${valid} valid and ${invalid} invalid passports.`;
+    return `Day 4 - Part 1: There are ${valid} valid and ${invalid} invalid passports.`;
 };
 
 // Part 2
@@ -84,10 +84,10 @@ const part2 = input =>
                     if (typeof mappedValidators[_field] === 'function')
                     {
                         const result = mappedValidators[_field](_value);
-                        console.log(
-                            `Test ${_field} having value: ${_value} => ${result
-                                ? 'passed'
-                                : 'failed'}`);
+//                        console.log(
+//                            `Test ${_field} having value: ${_value} => ${result
+//                                ? 'passed'
+//                                : 'failed'}`);
 
                         if (result)
                             continue;
@@ -103,7 +103,7 @@ const part2 = input =>
             invalid++;
         }
 
-    return `There are ${valid} valid and ${invalid} invalid passports.`;
+    return `Day 4 - Part 2: There are ${valid} valid and ${invalid} invalid passports.`;
 };
 
 export { part1, part2 };

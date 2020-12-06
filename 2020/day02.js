@@ -50,7 +50,7 @@ const part1 = input =>
         valid += parseLine(it) ? 1 : 0;
     }
 
-    return `Day 2 - Part 1: Es gibt ${valid} valide Passwörter`;
+    return `Day 2 - Part 1: There are ${valid} valid passwords`;
 };
 
 // Part 2
@@ -67,7 +67,7 @@ const part2 = input =>
         valid += parseLineExt(it) ? 1 : 0;
     }
 
-    return `Day 2 - Part 2: Es gibt ${valid} valide Passwörter`;
+    return `Day 2 - Part 2: There are ${valid} valid passwords`;
 };
 
 export { part1, part2 };
