@@ -1,6 +1,8 @@
 // Part 1
 // ======
 
+import { transformInput } from '../libs/helper';
+
 const part1 = input => {
   return input
 }
